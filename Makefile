@@ -11,13 +11,13 @@ GO ?= go
 
 run:
 	@echo "Запуск приложения..."
-	$(GO) run $(GOFLAGS) $(CMD_DIR)
+	$(GO) run $(CMD_DIR)
 
 build: $(BIN_DIR)/$(APP_NAME)
 
 $(BIN_DIR)/$(APP_NAME):
 	mkdir -p $(BIN_DIR)
-	$(GO) build $(GOFLAGS) -o $(BIN_DIR)/$(APP_NAME) $(CMD_DIR)
+	$(GO) build -o $(BIN_DIR)/$(APP_NAME) $(CMD_DIR)
 
 fmt:
 	$(GO) fmt ./...
