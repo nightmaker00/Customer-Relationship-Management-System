@@ -2,4 +2,4 @@ bin/
 
 .env
 
-.DS_
+.DS_Store
