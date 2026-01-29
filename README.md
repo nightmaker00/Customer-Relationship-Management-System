@@ -1,6 +1,6 @@
-# go-tasks-api
+# Customer Relationship Management System
 
-go-tasks-api — REST API сервис для управления задачами (CRUDL),
+Customer Relationship Management System — REST API сервис для управления задачами (CRUDL),
 написанный на чистом Go с использованием стандартной библиотеки.
 
 Проект создан как pet-проект для практики:
